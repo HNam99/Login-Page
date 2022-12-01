@@ -1,0 +1,125 @@
+body {
+    background: #222d32;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    background: #1a2226;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #0db8de;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type="password"], input[type="text"] {
+    background-color: #1a2226;
+    border: none;
+    border-bottom: 2px solid #0db8de;
+    border-top: 0;
+    border-radius: 0;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: #ecf0f5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0db8de;
+    outline: 0;
+    background-color: #1a2226;
+    color: #ecf0f5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6c6c6c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    border-color: #0db8de;
+    color: #0db8de;
+    border-radius: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0db8de;
+    right: 0;
+}
+
+.login-btn {
+    float: right;
+}
+
+.login-button {
+    padding-right: 0;
+    text-align: right;
+    margin-bottom: 25px;
+    float: right;
+}
+
+.login-text {
+    float: left;
+    margin-bottom: 25px;
+    color: #ed5656;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-text > p {
+    float: left;
+    margin: 4px 0 0 -30px;
+}
+
+.login-btn {
+    padding: 0;
+}
